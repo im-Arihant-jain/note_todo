@@ -1,0 +1,25 @@
+{
+  "homepage": "https://im-Arihant-jain.github.io/note_todo.git/",
+  "name": "project",
+  "dependencies": {
+    "nanoid": "3.1.28",
+    "react": "17.0.2",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "17.0.2",
+    "react-mde": "11.5.0",
+    "react-split": "2.0.13",
+    "showdown": "1.9.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*",
+    "vite": "latest"
+  },
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
